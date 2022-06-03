@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Ginger';
+    src: url(./components/fonts/F37GingerPro-Regular.otf) format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Ginger';
+    src: url(./components/fonts/F37GingerPro-Bold.otf) format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Ginger';
+    src: url(./components/fonts/F37GingerPro-Light.otf) format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url(./components/fonts/Prompt-Regular.ttf) format('truetype');
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url(./components/fonts/Prompt-SemiBold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
