@@ -33,7 +33,7 @@ const Contact = () => {
         />
       </div>
       <Map />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
     </>
   );

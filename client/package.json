@@ -1,5 +1,6 @@
 {
   "name": "graphio-website",
+  "homepage": "https://graphio.co.th",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
