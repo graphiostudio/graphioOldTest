@@ -80,7 +80,7 @@ const Navigation = () => {
               key={item.text}
               className={`${thisColor} ${
                 i18n.language === "th" ? "text-sm" : "text-xs"
-              } uppercase font-bold font-ginger tracking-widest transition-colors duration-300`}
+              } uppercase font-bold font-ginger tracking-widest`}
             >
               <NavLink
                 to={item.path}

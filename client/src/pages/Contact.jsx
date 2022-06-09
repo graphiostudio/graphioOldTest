@@ -6,7 +6,7 @@ import Tagline from "../components/layouts/Tagline";
 import Footer from "../components/layouts/Footer";
 import ContactForm from "../components/layouts/ContactForm";
 import Map from "../components/layouts/Map";
-import headerImg from "../components/images/contact.png";
+import headerImg from "../components/images/contact.webp";
 
 const Contact = () => {
   const { setNavTheme } = useContext(NavigationContext);

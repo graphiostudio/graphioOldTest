@@ -8,7 +8,7 @@ import Tagline from "../components/layouts/Tagline";
 import CarouselGallery from "../components/layouts/gallery/CarouselGallery";
 import Footer from "../components/layouts/Footer";
 import PageHeader from "../components/layouts/PageHeader";
-import headerImg from "../components/images/homepage.png";
+import headerImg from "../components/images/homepage.webp";
 import videoMp4 from "../components/videos/we-are-graphio-15sec-no-sound.mp4";
 import videoWebM from "../components/videos/we-are-graphio-15sec-no-sound.webm";
 

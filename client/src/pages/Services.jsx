@@ -6,7 +6,7 @@ import TranslationContext from "../context/translation/TranslationContext";
 import PageHeader from "../components/layouts/PageHeader";
 import Footer from "../components/layouts/Footer";
 import Tagline from "../components/layouts/Tagline";
-import headerImg from "../components/images/services.png";
+import headerImg from "../components/images/services.webp";
 import videoProductionMp4 from "../components/videos/our-work-video-production-reel.mp4";
 import videoProductionWebM from "../components/videos/our-work-video-production-reel.webm";
 import webDevelopmentMp4 from "../components/videos/web-development.mp4";

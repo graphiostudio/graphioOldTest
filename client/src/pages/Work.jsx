@@ -6,7 +6,7 @@ import Tagline from "../components/layouts/Tagline";
 import Search from "../components/layouts/Search";
 import GridGallery from "../components/layouts/gallery/GridGallery";
 import Footer from "../components/layouts/Footer";
-import headerImg from "../components/images/our-work.png";
+import headerImg from "../components/images/our-work.webp";
 
 const Work = () => {
   const { setNavTheme } = useContext(NavigationContext);
