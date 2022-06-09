@@ -1,23 +1,23 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { NavigationProvider } from './context/navigation/NavigationContext';
-import { GalleryProvider } from './context/gallery/GalleryContext';
-import { TranslationProvider } from './context/translation/TranslationContext';
-import { ScrollToTop } from './hooks/ScrollToTop';
-import Navigation from './components/layouts/Navigation';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import Services from './pages/Services';
-import Work from './pages/Work';
-import Portfolio from './pages/Portfolio';
-import NotFound from './pages/NotFound';
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { NavigationProvider } from "./context/navigation/NavigationContext";
+import { GalleryProvider } from "./context/gallery/GalleryContext";
+import { TranslationProvider } from "./context/translation/TranslationContext";
+import { ScrollToTop } from "./hooks/ScrollToTop";
+import Navigation from "./components/layouts/Navigation";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Work from "./pages/Work";
+import Portfolio from "./pages/Portfolio";
+import NotFound from "./pages/NotFound";
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setIsLoaded(true), 3500);
+    setTimeout(() => setIsLoaded(true), 100);
   }, []);
 
   return isLoaded ? (
@@ -66,7 +66,7 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.8 }}
           >
-            {' '}
+            {" "}
             creative studio
           </motion.span>
         </p>
