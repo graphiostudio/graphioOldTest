@@ -6,7 +6,7 @@ import TranslationContext from "../../context/translation/TranslationContext";
 const Map = () => {
   const { t } = useContext(TranslationContext);
   return (
-    <div className="bg-gRed-dark pb-20 lg:pb-40">
+    <div className="bg-gRed-dark">
       <GoogleMaps />
       {/* contact info */}
       <div className="mx-auto my-10 w-4/6 h-[2px] bg-neutral-100"></div>
@@ -16,10 +16,10 @@ const Map = () => {
             <FaPhone className="mr-8" />
             +6612717446
           </a>
-          <a href="mailto:info@graphio.co.th" className="flex items-center">
+          {/* <a href="mailto:info@graphio.co.th" className="flex items-center">
             <FaEnvelope className="mr-8" />
             info@graphio.co.th
-          </a>
+          </a> */}
           <p className="flex items-center">
             <FaLocationArrow className="mr-8" />
             {t("address")}
