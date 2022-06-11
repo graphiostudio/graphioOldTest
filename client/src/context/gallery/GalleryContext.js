@@ -24,7 +24,7 @@ import inclusiveCityHeaderMp4 from "../../components/portfolio/inclusive-city/In
 import inclusiveCityHeaderWebM from "../../components/portfolio/inclusive-city/Inclusivecity-header.webm";
 //cccl
 import ccclThumbnail from "../../components/portfolio/cccl/cccl.jpg";
-import ccclHeader from "../../components/portfolio/cccl/cccl-header.png";
+import ccclHeader from "../../components/portfolio/cccl/cccl-header.webp";
 import ccclItem1 from "../../components/portfolio/cccl/cccl-poster.jpg";
 import ccclItem2 from "../../components/portfolio/cccl/screenshot-ccclfilmfestival.png";
 //citizenship
